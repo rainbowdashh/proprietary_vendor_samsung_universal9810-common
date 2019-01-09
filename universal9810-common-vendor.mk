@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9810-common/proprietary/lib/hw/audio.primary.universal9810.so:system/lib/hw/audio.primary.universal9810.so
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/universal9810-common/proprietary/lib64/libmaet.so:system/lib64/libmaet.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libsxqk_skia.so:system/lib64/libsxqk_skia.so \
